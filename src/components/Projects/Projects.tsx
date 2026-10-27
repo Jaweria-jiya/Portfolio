@@ -2,6 +2,9 @@ import Card from "../Card/Card";
 import todo from "../../assets/todo.png"
 import food_project from "../../assets/food_project.png"
 import plant_project from "../../assets/crosby.png"
+import NoteApp from "../../assets/noteApp.png"
+import nike from "../../assets/nike.png"
+import FoodOrder from "../../assets/foodorder.png"
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from "gsap/all";
@@ -23,11 +26,11 @@ export default function Projects(){
     return <div id="projects" className="w-full h-screen flex items-center justify-center flex-col gap-7 bg-red-800 overflow-hidden">
         <h1 className="bg-gradient-to-r from-red-500 to-white bg-clip-text text-transparent text-4xl font-semibold pt-16 text-center px-2">1 YEAR EXPERIENCED IN PROJECTS</h1>
         <div className="slider flex ">
-            <Card title={"Todo AI App"} img={todo} />
-            <Card title={"Food Menu Website"} img={food_project} />
-            <Card title={"Plants"} img={plant_project} />
-            <Card title={"Plants"} img={plant_project} />
-            <Card title={"Plants"} img={plant_project} />
+            <a href="https://html-css-pr.vercel.app/" target="_blank"><Card title={"Food Menu Website"} img={food_project} /></a>
+             <a href="https://cros-by.vercel.app/" target="_blank"><Card title={"Plants"} img={plant_project} /></a>
+            <a href="https://haackthon.vercel.app/" target="_blank"><Card title={"Nike"} img={nike} /></a>
+            <a href="https://notes-application-smoky.vercel.app/" target="_blank"><Card title={"Note App"} img={NoteApp} /></a>
+            <a href="https://react-redux-foodwebsite.vercel.app/" target="_blank"><Card title={"Food Order Web"} img={FoodOrder} /></a>
         </div>
     </div>
 }
