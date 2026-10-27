@@ -1,5 +1,4 @@
 import Card from "../Card/Card";
-import todo from "../../assets/todo.png"
 import food_project from "../../assets/food_project.png"
 import plant_project from "../../assets/crosby.png"
 import NoteApp from "../../assets/noteApp.png"
